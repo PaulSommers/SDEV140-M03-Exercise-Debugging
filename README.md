@@ -1,2 +1,3 @@
 # SDEV140-M03-Exercise-Debugging
  
+This program calculates the Flesch Index and Grade Level Equivalent for the readability of a text file. It reads the text from a file, counts the number of sentences, words, and syllables, and then calculates the Flesch Index and Grade Level. The program was written by Ken, but it contained a bug where consecutive vowels were counted as multiple syllables. The bug was fixed by introducing a boolean check that tracks consecutive vowels, resulting in a more accurate syllable count.
